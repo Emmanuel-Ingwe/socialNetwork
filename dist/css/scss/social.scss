@@ -60,7 +60,7 @@ img {
 // LANDING 
 .landing {
     position: relative;
-    background: url('') no-repeat center center/cover;
+    background: url('');
     height: 100vh;
 
     &-inner {
@@ -72,5 +72,6 @@ img {
         margin: auto;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 }
