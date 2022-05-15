@@ -30,6 +30,15 @@
   border: #ccc 1px solid;
 }
 
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -95,7 +104,7 @@ img {
 
 .landing {
   position: relative;
-  background: url("") no-repeat center center/cover;
+  background: url("");
   height: 100vh;
 }
 
@@ -117,4 +126,5 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
