@@ -104,7 +104,7 @@ img {
 
 .landing {
   position: relative;
-  background: url("");
+  background: url("../img/sunsetBat.png") no-repeat center center/cover;
   height: 100vh;
 }
 
