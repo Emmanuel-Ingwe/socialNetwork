@@ -1,3 +1,13 @@
+// CONTAINER
+.container {
+    max-width: $max-width;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
 // TEXT STYLES
 .x-large {
     font-size: 4rem;
@@ -14,6 +24,10 @@
 .lead {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.text-primary {
+    color: $primary-color;
 }
 
 // BACKGROUNDS
