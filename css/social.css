@@ -363,3 +363,74 @@ img {
   line-height: 1.8;
   margin-bottom: 1rem;
 }
+
+.p3 {
+  background: #17a2b8;
+}
+
+.profile-grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'top top' 'about about' 'exp edu' 'github github';
+  grid-gap: 1rem;
+}
+
+.profile-grid .profile-top {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.profile-grid .profile-top img {
+  width: 250%;
+}
+
+.profile-grid .profile-top .icons a {
+  color: #fff;
+  margin: 0 0.3rem;
+}
+
+.profile-grid .profile-top .icons a:hover {
+  color: #343a40;
+}
+
+.profile-grid .profile-about {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: about;
+}
+
+.profile-grid .profile-exp {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: exp;
+}
+
+.profile-grid .profile-edu {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: edu;
+}
+
+.profile-grid .profile-github {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: github;
+}
