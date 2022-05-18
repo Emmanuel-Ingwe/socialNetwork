@@ -112,6 +112,12 @@
   border-radius: 50%;
 }
 
+.line {
+  height: 1px;
+  background: #ccc;
+  margin: 1.5rem 0;
+}
+
 .bg-danger {
   background-color: #dc3545;
   color: #fff;
@@ -414,6 +420,20 @@ img {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: about;
+  text-align: center;
+}
+
+.profile-grid .profile-about .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .profile-grid .profile-exp {
@@ -426,6 +446,18 @@ img {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: edu;
+}
+
+.profile-grid .profile-exp
+.profile-edu > div {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dotted #ccc;
+}
+
+.profile-grid .profile-exp
+.profile-edu:last-child {
+  border: none;
 }
 
 .profile-grid .profile-github {
