@@ -233,6 +233,35 @@
   color: #fff;
 }
 
+.badge {
+  font-size: 0.8rem;
+  padding: 0.1rem;
+  text-align: center;
+  margin: 0.3rem;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.badge.badge-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.badge.badge-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.badge.badge-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.badge.badge-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
 .dark-overlay {
   height: 100%;
   width: 100%;
@@ -460,9 +489,36 @@ img {
   border: none;
 }
 
+.profile-grid .profile-exp
+.profile-edu p {
+  margin: 00.5rem 0;
+}
+
 .profile-grid .profile-github {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: github;
+}
+
+.profile-grid .profile-github .repo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-grid .profile-github .repo > div:first-child {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.profile-grid .profile-github .repo > div:last-child {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
 }
