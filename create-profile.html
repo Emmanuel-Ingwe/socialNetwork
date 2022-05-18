@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialnet.</title>
+    <link rel="stylesheet" href="css/social.css">
+</head>
+
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="dashboard.html">
+                <i class="fas fa-code"></i> DevConnector
+            </a>
+        </h1>
+        <ul>
+            <li><a href="profiles.html">Developers</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="dashboard.html"><i class="fas fa-user"></i><span class="hide-sm">Dashboard</span></a></li>
+            <li><a href="login.html"><i class="fas fa-sign-out-alt"></i><span class="hide-sm">Login</span></a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <h1 class="large text-primary">Create Your Profile</h1>
+        <p class="lead"><i class="fas fa-user">Let's get some information to make your profile stand out</i></p>
+        <small>* = required fields</small>
+        <form action="" class="form">
+            <div class="form-group">
+                <select name="status" id="">
+                    <option value="0">* Select Professional Status</option>
+                    <option value="Developer"> Developer</option>
+                    <option value="Junior Developer"> Junior Developer</option>
+                    <option value="Senior Developer"> Senior Developer</option>
+                    <option value="Manager"> manager</option>
+                    <option value="Student Or Learning">Student Or Learning</option>
+                    <option value="Instructor"> Instructor Or Teacher</option>
+                    <option value="intern"> Intern</option>
+                    <option value="other"> Other</option>
+                </select>
+                <small class="form-text">Give us an idea of where you are at in your career</small>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Company" name="company">
+                <small class="form-text">Could be your own company or one you work for</small>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Location" name="location">
+                <small class="form-text">City & state suggested (e.g Boston, MA)</small>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="* Skills" name="skills">
+                <small class="form-text">Please use comma separated values (e.g HTML, CSS, Javascript, PHP)</small>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Github Username" name="githubusername">
+                <small class="form-text">If you want your latest repos and a github link, include your username </small>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="A Short Bio of yourself" name="bio">
+                <small class="form-text">Tell us a little about yourself</small>
+            </div>
+
+            <div class="my-2">
+                <button type="button" class="btn btn-light">Add Social Networks Links</button>
+                <span>Optional</span>
+            </div>
+
+            <div class="form-group social-input">
+                <i class="fab fa-twitter fa-2x"></i>
+                <input type="text" placeholder="Twitter URL">
+            </div>
+
+            <div class="form-group social-input">
+                <i class="fab fa-facebook fa-2x"></i>
+                <input type="text" placeholder="Facebook URL" name="twitter">
+            </div>
+
+            <div class="form-group social-input">
+                <i class="fab fa-youtube fa-2x"></i>
+                <input type="text" placeholder="Youtube URL" name="youtube">
+            </div>
+
+            <div class="form-group social-input">
+                <i class="fab fa-linkedin fa-2x"></i>
+                <input type="text" placeholder="fa-linkedin URL" name="linkedin">
+            </div>
+
+            <div class="form-group social-input">
+                <i class="fab fa-instagram fa-2x"></i>
+                <input type="text" placeholder="Instagram URL" name="instagram">
+            </div>
+            <input type="submit" class="btn btn-primary my-1"><a href="dashboard.html" class="btn btn-light my-1">Go Back</a>
+        </form>
+    </section>
+</body>
+
+</html>
